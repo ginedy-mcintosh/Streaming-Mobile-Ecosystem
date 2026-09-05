@@ -18,6 +18,14 @@
 
 ---
 
+## The web surface
+
+![Live player with schedule — dual channel](naciontv-live-player.jpg)
+
+The browser client for the same feed the TV apps consume: live player, dual-channel switcher, and the timezone-normalized "what’s on next" schedule. Programming staff edit the schedule; every platform picks up the change from the shared API without a new build.
+
+---
+
 ## 1. The problem
 
 A Spanish-language broadcast network distributes to viewers across the United States, Mexico, and Central and South America — over the air, on the web, and through connected-TV apps. Its audience skews toward television, not browsers, which means the app is the product surface, not a companion.
