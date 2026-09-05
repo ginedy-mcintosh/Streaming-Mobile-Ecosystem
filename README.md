@@ -51,8 +51,8 @@ Five platforms, five languages, five review boards, five sets of certification r
         ▼          ▼           ▼            ▼            ▼          ▼
    ┌────────┐ ┌────────┐ ┌─────────┐  ┌─────────┐  ┌────────┐ ┌────────┐
    │  Roku  │ │ tvOS   │ │   iOS   │  │ Android │  │Fire TV │ │ Tizen  │
-   │Scene-  │ │ Swift  │ │  Swift  │  │ Kotlin  │  │Android │  │  Web   │
-   │Graph + │ │AVPlayer│ │AVPlayer │  │ExoPlayer│  │variant │  │ engine │
+   │Scene-  │ │ Swift  │ │  Swift  │  │ Flutter │  │Android │  │  Web   │
+   │Graph + │ │AVPlayer│ │AVPlayer │  │video_pl.│  │variant │  │ engine │
    │Bright- │ └────────┘ └─────────┘  └─────────┘  └────────┘ └────────┘
    │Script  │
    └────────┘
@@ -94,7 +94,7 @@ This is the part that is invisible until it blocks a release.
 | **Apple (tvOS + iOS)** | Reviewer tests the app cold on real hardware. **Privacy policy and support URLs in the listing must resolve** — a redirect chain or a 404 is an immediate rejection. Streaming apps get scrutinized for content rights and for playback failure on first launch. Sign-in requirements and data-collection disclosures must match actual behavior exactly |
 | **Google Play** | Data safety declaration must match what the app really transmits, including analytics SDKs. Target-API-level deadlines force a rebuild on a schedule you don't control. Content rating questionnaire is binding |
 | **Roku** | The most rigid. Channel Store certification checks deep-link behavior, trick-play, memory ceilings on legacy devices, and remote-control conformance. SceneGraph performance budgets on older Roku hardware are unforgiving — an app that's fluid on a current stick can fail on a five-year-old box that a large share of the audience still uses |
-| **Amazon Fire TV** | Android-derived but with its own remote input mapping, its own store listing, and appstore-specific compatibility testing |
+| **Amazon Fire TV** | Shares the Flutter codebase with Android but has its own remote input mapping, its own store listing, and appstore-specific compatibility testing |
 | **Samsung Tizen** | Web-engine based with a distinct packaging and certification path and its own TV-remote focus model |
 
 ### The lesson that cost the most
